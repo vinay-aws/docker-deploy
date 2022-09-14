@@ -15,8 +15,8 @@ pipeline {
 		stage('deploy') {
             steps {
 				sh 'cp q1/index.html /mnt/VNY'
-				}
 			}
 		}
 	}
 }
+
