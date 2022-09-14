@@ -9,7 +9,7 @@ pipeline {
         stage('clone') {
             steps {
 				sh "rm -rf *"
-                sh "git clone -b master https://github.com/vinay-aws/Assignment-1.git q1"
+                sh "git clone -b master https://github.com/vinay-aws/docker-deploy.git q1"
 			}
         }
 		stage('deploy') {
